@@ -4,7 +4,7 @@ const Senha = document.getElementById('password');
 const button = document.getElementById('entrar');
 
 function trybewartsLogin() {
-  if (email.value !== 'tryber@teste.com' & Senha.value !== 123456) {
+  if (email.value !== 'tryber@teste.com' && Senha.value !== 123456) {
     alert('Email ou senha inválidos.');
   } else {
     alert('Olá, Tryber!');
