@@ -8,3 +8,7 @@
     height: 100px;
     width: 100%;
 }
+
+.trybewarts-login{
+    display: flex;
+}
