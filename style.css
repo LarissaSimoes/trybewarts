@@ -1,14 +1,19 @@
 .header {
+  justify-content: space-between;
   display: flex;
   background-color: rgb(50, 167, 145);
   position: absolute;
   top: 0;
   left: 0;
-  padding: 20px 50px;
+  padding-bottom: 20px;
   height: 100px;
   width: 100%;
 }
 
 .trybewarts-login {
-    display: flex;
+  display: flex;
+}
+
+#trybewarts-header-title {
+  text-align: center;
 }
