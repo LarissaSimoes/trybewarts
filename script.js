@@ -4,15 +4,12 @@ const Senha = document.getElementById('password');
 const button = document.getElementById('entrar');
 
 function trybewartsLogin() {
-  if (email.value === 'tryber@teste.com' & Senha.value === 123456) {
-    alert('Olá, Tryber!');
-  } else {
+  if (email.value !== 'tryber@teste.com' & Senha.value !== 123456) {
     alert('Email ou senha inválidos.');
+  } else {
+    alert('Olá, Tryber!');
   }
 }
-// console.log('trybewartsLogin');
-trybewartsLogin();
-
 button.addEventListener('click', trybewartsLogin);
 
 // window.onload(event);
