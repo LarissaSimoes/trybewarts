@@ -19,10 +19,11 @@
 
 #evaluation-form {
   display: flex;
-  width: 675px;
   flex-direction: column;
-  flex-basis: 50%;
+  /* flex-basis: 50%; */
   align-items: baseline;
+  width: 675px;
+  height: 675px;
 
 }
 
