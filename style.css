@@ -20,7 +20,6 @@
 #evaluation-form {
   display: flex;
   flex-direction: column;
-  /* flex-basis: 50%; */
   align-items: baseline;
   width: 675px;
   height: 675px;
