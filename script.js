@@ -10,6 +10,9 @@ function trybewartsLogin() {
     alert('Olá, Tryber!');
   }
 }
+// console.log('trybewartsLogin');
+trybewartsLogin();
+
 button.addEventListener('click', trybewartsLogin);
 
 // window.onload(event);
