@@ -14,8 +14,3 @@ function trybewartsLogin() {
 trybewartsLogin();
 
 button.addEventListener('click', trybewartsLogin);
-
-// window.onload(event);
-// event.preventDefault();
-
-// event.preventDefault();
